@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var nameEditText: EditText
     lateinit var heightEditText: EditText
     lateinit var weightEditText: EditText
+    lateinit var newButton: Button  //new버튼
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         nameEditText=findViewById(R.id.nameEditText)
         heightEditText=findViewById(R.id.heightEditText)
         weightEditText=findViewById(R.id.weightEditText)
+        newButton=findViewById(R.id.newButton)
         loadData()
         resultButton.setOnClickListener{
             saveData(nameEditText.text.toString(), heightEditText.text.toString().toInt(),heightEditText.text.toString().toInt())
