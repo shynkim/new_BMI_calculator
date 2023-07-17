@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.New_BMI_calculator" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+    </style>
+
+    <style name="Theme.New_BMI_calculator" parent="Base.Theme.New_BMI_calculator" />
+</resources>
